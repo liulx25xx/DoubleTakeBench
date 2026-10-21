@@ -1,0 +1,28 @@
+{
+  "schema": "final-benchmark-v1",
+  "version": "final-benchmark-20260926-v7",
+  "questions": 525,
+  "splits": {
+    "binary": {
+      "questions": 346,
+      "answer_distribution": {
+        "A": 158,
+        "B": 188
+      }
+    },
+    "multiclass": {
+      "questions": 179,
+      "answer_distribution": {
+        "A": 45,
+        "B": 44,
+        "C": 44,
+        "D": 46
+      },
+      "option_counts": {
+        "3": 40,
+        "4": 132,
+        "5": 7
+      }
+    }
+  }
+}

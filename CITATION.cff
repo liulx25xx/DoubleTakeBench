@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite DoubleTakeBench when using this dataset."
+title: "DoubleTakeBench: Model Judgment on Coding-Agent Observations"
+type: dataset
+version: "final-benchmark-20260926-v7"
+date-released: 2026-09-26
+authors:
+  - name: "DoubleTakeBench contributors"
+repository-code: "https://github.com/liulx25xx/DoubleTakeBench"
+url: "https://github.com/liulx25xx/DoubleTakeBench"

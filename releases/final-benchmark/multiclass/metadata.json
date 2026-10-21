@@ -1,0 +1,3633 @@
+[
+  {
+    "question_id": "q_43f16f757e6459aea432b79b605ca6e0",
+    "record_question_id": "Q001",
+    "source_url": "https://d3ujjcmjq6o8v6.cloudfront.net/v1.1/trial-artifacts/arktype-json-schema-refs-depende__Ce4VMhc/agent/trajectory.json",
+    "run_id": "arktype-json-schema-refs-depende__Ce4VMhc",
+    "task_id": "arktype-json-schema-refs-dependencies",
+    "evidence_json_pointers": {
+      "E1": "/steps/30/tool_calls/0/arguments/command",
+      "E2": "/steps/30/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "command_semantics_inference"
+    }
+  },
+  {
+    "question_id": "q_276fdf3abed45880a6fb22f5df227610",
+    "record_question_id": "Q003",
+    "source_url": "https://d3ujjcmjq6o8v6.cloudfront.net/v1.1/trial-artifacts/numba-stencil-boundary-modes__2f6T4UL/agent/trajectory.json",
+    "run_id": "numba-stencil-boundary-modes__2f6T4UL",
+    "task_id": "numba-stencil-boundary-modes",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/18/tool_calls/0/arguments/command",
+      "E4": "/steps/22/tool_calls/0/arguments/command",
+      "E5": "/steps/22/tool_calls/0/arguments/command"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "deterministic_index_mapping"
+    }
+  },
+  {
+    "question_id": "q_71bdb6b94df85b30bf0c958fda36e59b",
+    "record_question_id": "Q005",
+    "source_url": "https://d3ujjcmjq6o8v6.cloudfront.net/v1.1/trial-artifacts/pwntools-tube-multiplexing__iKXnQuS/agent/trajectory.json",
+    "run_id": "pwntools-tube-multiplexing__iKXnQuS",
+    "task_id": "pwntools-tube-multiplexing",
+    "evidence_json_pointers": {
+      "E1": "/steps/3/message",
+      "E2": "/steps/3/tool_calls/0/arguments/command",
+      "E3": "/steps/3/observation/results/0/content/returncode",
+      "E4": "/steps/3/observation/results/0/content/output"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_ae5b436e789053a3ac98d915cd39e6d2",
+    "record_question_id": "Q010",
+    "run_id": "sqlfmt-create-table-ddl-formatti__rKSDX23",
+    "task_id": "sqlfmt-create-table-ddl-formatting",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/4/observation/results/1/content/output_tail",
+      "E3": "/steps/13/tool_calls/2/arguments/command",
+      "E4": "/steps/13/observation/results/2/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_dcaf3f67a29f5afb86965ec89524bc0e",
+    "record_question_id": "Q013",
+    "run_id": "adaptix-name-mapping-aliases__FDG3kMj",
+    "task_id": "adaptix-name-mapping-aliases",
+    "evidence_json_pointers": {
+      "E1": "/steps/13/tool_calls/0/arguments/command",
+      "E2": "/steps/13/observation/results/0/content/output",
+      "E3": "/steps/14/tool_calls/0/arguments/command",
+      "E4": "/steps/14/observation/results/0/content/output",
+      "E5": "/steps/15/tool_calls/0/arguments/command",
+      "E6": "/steps/15/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_3e26a2173655533cab629ca87543139e",
+    "record_question_id": "Q015",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/fix-ocaml-gc__GSwSdd3/agent/trajectory.json",
+    "run_id": "fix-ocaml-gc__GSwSdd3",
+    "task_id": "fix-ocaml-gc",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/11/observation/results/0/content",
+      "E3": "/steps/13/message",
+      "E4": "/steps/13/reasoning_content",
+      "E5": "/steps/13/tool_calls/0/arguments",
+      "E6": "/steps/13/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_70b1d91109ca5125b99de0ca97600078",
+    "record_question_id": "Q016",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/cobol-modernization__DKoJ6i4/agent/trajectory.json",
+    "run_id": "cobol-modernization__DKoJ6i4",
+    "task_id": "cobol-modernization",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E10": "/steps/8/observation/results/0/content",
+      "E2": "/steps/2/observation/results/0/content",
+      "E3": "/steps/3/observation/results/0/content",
+      "E4": "/steps/6/observation/results/0/content",
+      "E5": "/steps/8/message",
+      "E6": "/steps/8/reasoning_content",
+      "E7": "/steps/8/tool_calls/0/arguments",
+      "E8": "/steps/8/tool_calls/1/arguments",
+      "E9": "/steps/8/tool_calls/2/arguments"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_05e1160ec34c5b8cbecc0274a3cdacf8",
+    "record_question_id": "Q017",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/merge-diff-arc-agi-task__qmjCm7z/agent/trajectory.json",
+    "run_id": "merge-diff-arc-agi-task__qmjCm7z",
+    "task_id": "merge-diff-arc-agi-task",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/11/observation/results/0/content",
+      "E3": "/steps/12/message",
+      "E4": "/steps/12/reasoning_content",
+      "E5": "/steps/12/tool_calls/0/arguments",
+      "E6": "/steps/12/tool_calls/1/arguments",
+      "E7": "/steps/12/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_75ddae41b4795017936f9471f42ace37",
+    "record_question_id": "Q023",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/kv-store-grpc__XbAWfVh/agent/trajectory.json",
+    "run_id": "kv-store-grpc__XbAWfVh",
+    "task_id": "kv-store-grpc",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/2/message",
+      "E3": "/steps/2/reasoning_content",
+      "E4": "/steps/2/tool_calls/0/arguments",
+      "E5": "/steps/2/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_a443861eca1d52ae8faf079a64161c13",
+    "record_question_id": "Q025",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/fix-ocaml-gc__QRENo7B/agent/trajectory.json",
+    "run_id": "fix-ocaml-gc__QRENo7B",
+    "task_id": "fix-ocaml-gc",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/13/message",
+      "E3": "/steps/13/reasoning_content",
+      "E4": "/steps/13/tool_calls/0/arguments",
+      "E5": "/steps/13/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_3b009fa3aceb5695aad3fc4370cec92b",
+    "record_question_id": "Q028",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Claude-Opus-4.6/2026-02-05__17-41-47/path-tracing-reverse__VxTnxcV/agent/trajectory.json",
+    "run_id": "path-tracing-reverse__VxTnxcV",
+    "task_id": "path-tracing-reverse",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/20/observation/results/0/content",
+      "E3": "/steps/22/message",
+      "E4": "/steps/22/reasoning_content",
+      "E5": "/steps/22/tool_calls/0/arguments",
+      "E6": "/steps/22/tool_calls/1/arguments",
+      "E7": "/steps/22/tool_calls/2/arguments",
+      "E8": "/steps/22/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "anthropic/claude-opus-4-6",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_cfd5c973260d5c89b172a24c6edfab82",
+    "record_question_id": "Q032",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/distribution-search__zfdCULZ/agent/trajectory.json",
+    "run_id": "distribution-search__zfdCULZ",
+    "task_id": "distribution-search",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/1/reasoning_content",
+      "E4": "/steps/1/tool_calls/0/arguments",
+      "E5": "/steps/1/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_ea9052e72ebb5bd383bdf1c8c0b7b2bb",
+    "record_question_id": "Q033",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/custom-memory-heap-crash__t8zGiwX/agent/trajectory.json",
+    "run_id": "custom-memory-heap-crash__t8zGiwX",
+    "task_id": "custom-memory-heap-crash",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/11/message",
+      "E4": "/steps/11/reasoning_content",
+      "E5": "/steps/11/tool_calls/0/arguments",
+      "E6": "/steps/11/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_838c6cf9f7055299bd2c76e98c74b873",
+    "record_question_id": "Q037",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/distribution-search__MXHKQPY/agent/trajectory.json",
+    "run_id": "distribution-search__MXHKQPY",
+    "task_id": "distribution-search",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/24/message",
+      "E3": "/steps/24/reasoning_content",
+      "E4": "/steps/24/tool_calls/0/arguments",
+      "E5": "/steps/24/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_7d496944ac635722a9fde662c5d411cb",
+    "record_question_id": "Q044",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/polyglot-rust-c__3mcDnTH/agent/trajectory.json",
+    "run_id": "polyglot-rust-c__3mcDnTH",
+    "task_id": "polyglot-rust-c",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/8/tool_calls/0/arguments",
+      "E3": "/steps/9/message",
+      "E4": "/steps/9/reasoning_content",
+      "E5": "/steps/9/tool_calls/0/arguments",
+      "E6": "/steps/9/tool_calls/1/arguments",
+      "E7": "/steps/9/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_43a965deff4453a1b19bbdfd1309ea47",
+    "record_question_id": "Q045",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/adaptive-rejection-sampler__TUTdrpa/agent/trajectory.json",
+    "run_id": "adaptive-rejection-sampler__TUTdrpa",
+    "task_id": "adaptive-rejection-sampler",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/7/tool_calls/0/arguments",
+      "E3": "/steps/8/tool_calls/0/arguments",
+      "E4": "/steps/9/message",
+      "E5": "/steps/9/reasoning_content",
+      "E6": "/steps/9/tool_calls/0/arguments",
+      "E7": "/steps/9/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_a67932c849615d4581fda8359535716c",
+    "record_question_id": "Q047",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/pytorch-model-recovery__b2VW3HN/agent/trajectory.json",
+    "run_id": "pytorch-model-recovery__b2VW3HN",
+    "task_id": "pytorch-model-recovery",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/2/message",
+      "E3": "/steps/2/reasoning_content",
+      "E4": "/steps/2/tool_calls/0/arguments",
+      "E5": "/steps/2/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_77425b3786a35fc897692d906f9a7da1",
+    "record_question_id": "Q052",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/winning-avg-corewars__sUCAXwF/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__sUCAXwF",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/165/message",
+      "E3": "/steps/165/reasoning_content",
+      "E4": "/steps/165/tool_calls/0/arguments",
+      "E5": "/steps/165/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_20e2f059db8d51dabea316b8ffb98cb7",
+    "record_question_id": "Q053",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/winning-avg-corewars__sUCAXwF/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__sUCAXwF",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/177/message",
+      "E3": "/steps/177/reasoning_content",
+      "E4": "/steps/177/tool_calls/0/arguments",
+      "E5": "/steps/177/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b74659c3093d5bfabbd0c4ed6e10201e",
+    "record_question_id": "Q059",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/custom-memory-heap-crash__Ro6jGmY/agent/trajectory.json",
+    "run_id": "custom-memory-heap-crash__Ro6jGmY",
+    "task_id": "custom-memory-heap-crash",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/4/message",
+      "E4": "/steps/4/reasoning_content",
+      "E5": "/steps/4/tool_calls/0/arguments",
+      "E6": "/steps/4/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_6d7f653b288158838a1630753252f4c1",
+    "record_question_id": "Q061",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/path-tracing-reverse__2rGrjKB/agent/trajectory.json",
+    "run_id": "path-tracing-reverse__2rGrjKB",
+    "task_id": "path-tracing-reverse",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/102/message",
+      "E3": "/steps/102/reasoning_content",
+      "E4": "/steps/102/tool_calls/0/arguments",
+      "E5": "/steps/102/tool_calls/1/arguments",
+      "E6": "/steps/102/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b005aebb73955070b1635da1b8424de3",
+    "record_question_id": "Q062",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/winning-avg-corewars__pRLuqZb/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__pRLuqZb",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/3/message",
+      "E4": "/steps/3/reasoning_content",
+      "E5": "/steps/3/tool_calls/0/arguments",
+      "E6": "/steps/3/tool_calls/1/arguments",
+      "E7": "/steps/3/tool_calls/2/arguments",
+      "E8": "/steps/3/tool_calls/3/arguments",
+      "E9": "/steps/3/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_2c30e9e0bc115de89954dee3fac4a242",
+    "record_question_id": "Q068",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/make-mips-interpreter__vo8bfKJ/agent/trajectory.json",
+    "run_id": "make-mips-interpreter__vo8bfKJ",
+    "task_id": "make-mips-interpreter",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/30/message",
+      "E3": "/steps/30/reasoning_content",
+      "E4": "/steps/30/tool_calls/0/arguments",
+      "E5": "/steps/30/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_178f8b49089c5dd58f317760d45a78d5",
+    "record_question_id": "Q069",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/path-tracing-reverse__BrBuZAk/agent/trajectory.json",
+    "run_id": "path-tracing-reverse__BrBuZAk",
+    "task_id": "path-tracing-reverse",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/74/observation/results/0/content",
+      "E3": "/steps/75/message",
+      "E4": "/steps/75/reasoning_content",
+      "E5": "/steps/75/tool_calls/0/arguments",
+      "E6": "/steps/75/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_80ca7d31656a5a3fb7446c1e6bf4b483",
+    "record_question_id": "Q071",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/extract-elf__XowMmUQ/agent/trajectory.json",
+    "run_id": "extract-elf__XowMmUQ",
+    "task_id": "extract-elf",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/7/message",
+      "E3": "/steps/7/reasoning_content",
+      "E4": "/steps/7/tool_calls/0/arguments",
+      "E5": "/steps/7/tool_calls/1/arguments",
+      "E6": "/steps/7/tool_calls/2/arguments",
+      "E7": "/steps/7/tool_calls/3/arguments",
+      "E8": "/steps/7/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_81350d14bd40505fabc29a2ee2cbcde6",
+    "record_question_id": "Q073",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/schemelike-metacircular-eval__xTzzNfo/agent/trajectory.json",
+    "run_id": "schemelike-metacircular-eval__xTzzNfo",
+    "task_id": "schemelike-metacircular-eval",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/49/message",
+      "E3": "/steps/49/reasoning_content",
+      "E4": "/steps/49/tool_calls/0/arguments",
+      "E5": "/steps/49/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_0c7fe66a14975caf9443f51cf1265b2a",
+    "record_question_id": "Q074",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/schemelike-metacircular-eval__xTzzNfo/agent/trajectory.json",
+    "run_id": "schemelike-metacircular-eval__xTzzNfo",
+    "task_id": "schemelike-metacircular-eval",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/55/message",
+      "E3": "/steps/55/reasoning_content",
+      "E4": "/steps/55/tool_calls/0/arguments",
+      "E5": "/steps/55/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_3def6ff32c945f3c9c8bff932fa633c5",
+    "record_question_id": "Q077",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/fix-ocaml-gc__wTRhkai/agent/trajectory.json",
+    "run_id": "fix-ocaml-gc__wTRhkai",
+    "task_id": "fix-ocaml-gc",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/16/observation/results/0/content",
+      "E3": "/steps/17/message",
+      "E4": "/steps/17/reasoning_content",
+      "E5": "/steps/17/tool_calls/0/arguments",
+      "E6": "/steps/17/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_fd6eecab6c7455fa9ab26cd297cd4ec5",
+    "record_question_id": "Q079",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/custom-memory-heap-crash__YaxMdaw/agent/trajectory.json",
+    "run_id": "custom-memory-heap-crash__YaxMdaw",
+    "task_id": "custom-memory-heap-crash",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/3/message",
+      "E4": "/steps/3/reasoning_content",
+      "E5": "/steps/3/tool_calls/0/arguments",
+      "E6": "/steps/3/tool_calls/1/arguments",
+      "E7": "/steps/3/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b09093c2163a5e9aa27008f2ddc726cc",
+    "record_question_id": "Q090",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/schemelike-metacircular-eval__vBzVwc7/agent/trajectory.json",
+    "run_id": "schemelike-metacircular-eval__vBzVwc7",
+    "task_id": "schemelike-metacircular-eval",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/2/observation/results/0/content",
+      "E3": "/steps/59/message",
+      "E4": "/steps/59/reasoning_content",
+      "E5": "/steps/59/tool_calls/0/arguments",
+      "E6": "/steps/59/tool_calls/1/arguments",
+      "E7": "/steps/59/tool_calls/2/arguments",
+      "E8": "/steps/59/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_06c98ff5d6475bb392b9601b4031469e",
+    "record_question_id": "Q098",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/feal-differential-cryptanalysis__TdMvdZK/agent/trajectory.json",
+    "run_id": "feal-differential-cryptanalysis__TdMvdZK",
+    "task_id": "feal-differential-cryptanalysis",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/17/message",
+      "E4": "/steps/17/reasoning_content",
+      "E5": "/steps/17/tool_calls/0/arguments",
+      "E6": "/steps/17/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_db7e68078cf35f83bcc27dc330d0b80f",
+    "record_question_id": "Q101",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/fix-ocaml-gc__ffWwd2v/agent/trajectory.json",
+    "run_id": "fix-ocaml-gc__ffWwd2v",
+    "task_id": "fix-ocaml-gc",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/87/message",
+      "E3": "/steps/117/message",
+      "E4": "/steps/117/reasoning_content",
+      "E5": "/steps/117/tool_calls/0/arguments",
+      "E6": "/steps/117/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_d03d02c5230059bfa0bbb71ce5a00c46",
+    "record_question_id": "Q108",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/regex-chess__884k8Mm/agent/trajectory.json",
+    "run_id": "regex-chess__884k8Mm",
+    "task_id": "regex-chess",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/30/message",
+      "E3": "/steps/30/reasoning_content",
+      "E4": "/steps/30/tool_calls/0/arguments",
+      "E5": "/steps/30/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_1e58963be5d35875b149c8d93889c57b",
+    "record_question_id": "Q110",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/fix-git__M5HoRfp/agent/trajectory.json",
+    "run_id": "fix-git__M5HoRfp",
+    "task_id": "fix-git",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/5/message",
+      "E3": "/steps/5/reasoning_content",
+      "E4": "/steps/5/tool_calls/0/arguments",
+      "E5": "/steps/5/tool_calls/1/arguments",
+      "E6": "/steps/5/tool_calls/2/arguments",
+      "E7": "/steps/5/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_26fd722654955b9e880a9e9ce90f279f",
+    "record_question_id": "Q111",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/custom-memory-heap-crash__89W8SwG/agent/trajectory.json",
+    "run_id": "custom-memory-heap-crash__89W8SwG",
+    "task_id": "custom-memory-heap-crash",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/2/observation/results/0/content",
+      "E3": "/steps/14/message",
+      "E4": "/steps/14/reasoning_content",
+      "E5": "/steps/14/tool_calls/0/arguments",
+      "E6": "/steps/14/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_7090a4173221540fb793f4b7c90fcf0b",
+    "record_question_id": "Q112",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/custom-memory-heap-crash__89W8SwG/agent/trajectory.json",
+    "run_id": "custom-memory-heap-crash__89W8SwG",
+    "task_id": "custom-memory-heap-crash",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/2/observation/results/0/content",
+      "E3": "/steps/13/message",
+      "E4": "/steps/13/reasoning_content",
+      "E5": "/steps/13/tool_calls/0/arguments",
+      "E6": "/steps/13/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_39b9f37878c05c3587c103247fae070b",
+    "record_question_id": "Q119",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Claude-Opus-4.6/2026-02-05__17-41-47/winning-avg-corewars__cMFTD67/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__cMFTD67",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/30/message",
+      "E4": "/steps/30/reasoning_content",
+      "E5": "/steps/30/tool_calls/0/arguments",
+      "E6": "/steps/30/tool_calls/1/arguments",
+      "E7": "/steps/30/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "anthropic/claude-opus-4-6",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_85cbf3dbc8dd51b2bcf7da9ec2afa8c6",
+    "record_question_id": "Q120",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/pytorch-model-recovery__ceowdSP/agent/trajectory.json",
+    "run_id": "pytorch-model-recovery__ceowdSP",
+    "task_id": "pytorch-model-recovery",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/3/message",
+      "E3": "/steps/3/reasoning_content",
+      "E4": "/steps/3/tool_calls/0/arguments",
+      "E5": "/steps/3/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_361ce2e2161d5a6dbc3e2ed54da9d91f",
+    "record_question_id": "Q121",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/pytorch-model-recovery__EVCZqLx/agent/trajectory.json",
+    "run_id": "pytorch-model-recovery__EVCZqLx",
+    "task_id": "pytorch-model-recovery",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/1/reasoning_content",
+      "E4": "/steps/1/tool_calls/0/arguments",
+      "E5": "/steps/1/tool_calls/1/arguments",
+      "E6": "/steps/1/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_251b2beda3895ed29747ad5326128420",
+    "record_question_id": "Q123",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/path-tracing-reverse__XQ7MsiY/agent/trajectory.json",
+    "run_id": "path-tracing-reverse__XQ7MsiY",
+    "task_id": "path-tracing-reverse",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/27/message",
+      "E3": "/steps/34/message",
+      "E4": "/steps/34/reasoning_content",
+      "E5": "/steps/34/tool_calls/0/arguments",
+      "E6": "/steps/34/tool_calls/1/arguments",
+      "E7": "/steps/34/tool_calls/2/arguments",
+      "E8": "/steps/34/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_72903b850b9e56008afac902957c9580",
+    "record_question_id": "Q127",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/regex-chess__TFMGCTZ/agent/trajectory.json",
+    "run_id": "regex-chess__TFMGCTZ",
+    "task_id": "regex-chess",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/4/message",
+      "E3": "/steps/4/reasoning_content",
+      "E4": "/steps/4/tool_calls/0/arguments",
+      "E5": "/steps/4/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_91418a45deae52d0801de064a5d8848a",
+    "record_question_id": "Q130",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/feal-linear-cryptanalysis__Lje83sR/agent/trajectory.json",
+    "run_id": "feal-linear-cryptanalysis__Lje83sR",
+    "task_id": "feal-linear-cryptanalysis",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/2/observation/results/0/content",
+      "E3": "/steps/3/message",
+      "E4": "/steps/3/reasoning_content",
+      "E5": "/steps/3/tool_calls/0/arguments",
+      "E6": "/steps/3/tool_calls/1/arguments",
+      "E7": "/steps/3/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_9f06a9704a6656259c30fbc9b126bfb7",
+    "record_question_id": "Q131",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/circuit-fibsqrt__5rwvgJQ/agent/trajectory.json",
+    "run_id": "circuit-fibsqrt__5rwvgJQ",
+    "task_id": "circuit-fibsqrt",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/1/reasoning_content",
+      "E4": "/steps/1/tool_calls/0/arguments",
+      "E5": "/steps/1/tool_calls/1/arguments",
+      "E6": "/steps/1/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_408d8b0bf2c55b6883f8a0dc463847b1",
+    "record_question_id": "Q135",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/write-compressor__zRBAozv/agent/trajectory.json",
+    "run_id": "write-compressor__zRBAozv",
+    "task_id": "write-compressor",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/observation/results/0/content",
+      "E3": "/steps/2/message",
+      "E4": "/steps/2/reasoning_content",
+      "E5": "/steps/2/tool_calls/0/arguments",
+      "E6": "/steps/2/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_666a859ce3f056fda85c97bc59b6bdfb",
+    "record_question_id": "Q144",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/polyglot-rust-c__AuPQrNB/agent/trajectory.json",
+    "run_id": "polyglot-rust-c__AuPQrNB",
+    "task_id": "polyglot-rust-c",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/7/message",
+      "E3": "/steps/7/reasoning_content",
+      "E4": "/steps/7/tool_calls/0/arguments",
+      "E5": "/steps/7/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_13f92e7b01c15ce195164949d99e72bc",
+    "record_question_id": "Q148",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/circuit-fibsqrt__5QY5Pty/agent/trajectory.json",
+    "run_id": "circuit-fibsqrt__5QY5Pty",
+    "task_id": "circuit-fibsqrt",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/26/tool_calls/0/arguments",
+      "E3": "/steps/27/message",
+      "E4": "/steps/27/reasoning_content",
+      "E5": "/steps/27/tool_calls/0/arguments",
+      "E6": "/steps/27/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_7d80d90f657c519f9e39c2fa742cebbe",
+    "record_question_id": "Q151",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/pytorch-model-recovery__myw8F8m/agent/trajectory.json",
+    "run_id": "pytorch-model-recovery__myw8F8m",
+    "task_id": "pytorch-model-recovery",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/6/message",
+      "E3": "/steps/6/reasoning_content",
+      "E4": "/steps/6/tool_calls/0/arguments",
+      "E5": "/steps/6/tool_calls/1/arguments",
+      "E6": "/steps/6/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_57a78498f6015c33b3eb53d7b5223093",
+    "record_question_id": "Q153",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/winning-avg-corewars__5vqx7va/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__5vqx7va",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/125/observation/results/0/content",
+      "E3": "/steps/126/message",
+      "E4": "/steps/126/reasoning_content",
+      "E5": "/steps/126/tool_calls/0/arguments",
+      "E6": "/steps/126/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_f45de9e3b8ad5d8a877194cb118f1f1d",
+    "record_question_id": "Q155",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/make-mips-interpreter__vBqwS47/agent/trajectory.json",
+    "run_id": "make-mips-interpreter__vBqwS47",
+    "task_id": "make-mips-interpreter",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/54/message",
+      "E3": "/steps/54/reasoning_content",
+      "E4": "/steps/54/tool_calls/0/arguments",
+      "E5": "/steps/54/tool_calls/1/arguments",
+      "E6": "/steps/54/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_634b9ba91bf05f178fbf2e0e65021481",
+    "record_question_id": "Q156",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/fix-ocaml-gc__edpnYaV/agent/trajectory.json",
+    "run_id": "fix-ocaml-gc__edpnYaV",
+    "task_id": "fix-ocaml-gc",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/14/observation/results/0/content",
+      "E3": "/steps/16/observation/results/0/content",
+      "E4": "/steps/18/message",
+      "E5": "/steps/18/reasoning_content",
+      "E6": "/steps/18/tool_calls/0/arguments",
+      "E7": "/steps/18/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_541e58dc00d75bc0904bd55cd98b362e",
+    "record_question_id": "Q159",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/winning-avg-corewars__weNGsuF/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__weNGsuF",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E10": "/steps/214/observation/results/0/content",
+      "E2": "/steps/214/message",
+      "E3": "/steps/214/reasoning_content",
+      "E4": "/steps/214/tool_calls/0/arguments",
+      "E5": "/steps/214/tool_calls/1/arguments",
+      "E6": "/steps/214/tool_calls/2/arguments",
+      "E7": "/steps/214/tool_calls/3/arguments",
+      "E8": "/steps/214/tool_calls/4/arguments",
+      "E9": "/steps/214/tool_calls/5/arguments"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_50275e215c5957099ff65a0fc704f612",
+    "record_question_id": "Q161",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/regex-chess__Pqraznp/agent/trajectory.json",
+    "run_id": "regex-chess__Pqraznp",
+    "task_id": "regex-chess",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/12/message",
+      "E3": "/steps/12/reasoning_content",
+      "E4": "/steps/12/tool_calls/0/arguments",
+      "E5": "/steps/12/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_1d0af86f70785c009742fe719e63fae7",
+    "record_question_id": "Q169",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/gpt2-codegolf__6Vk3xzT/agent/trajectory.json",
+    "run_id": "gpt2-codegolf__6Vk3xzT",
+    "task_id": "gpt2-codegolf",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/6/message",
+      "E3": "/steps/6/reasoning_content",
+      "E4": "/steps/6/tool_calls/0/arguments",
+      "E5": "/steps/6/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_0d2b0919a9275429b3e015c641537678",
+    "record_question_id": "Q170",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/gpt2-codegolf__6Vk3xzT/agent/trajectory.json",
+    "run_id": "gpt2-codegolf__6Vk3xzT",
+    "task_id": "gpt2-codegolf",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/6/message",
+      "E3": "/steps/6/reasoning_content",
+      "E4": "/steps/6/tool_calls/0/arguments",
+      "E5": "/steps/6/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_be26d01118055841a92ae62e1f40b3ad",
+    "record_question_id": "Q171",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/winning-avg-corewars__GMiAkUm/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__GMiAkUm",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/4/message",
+      "E3": "/steps/4/reasoning_content",
+      "E4": "/steps/4/tool_calls/0/arguments",
+      "E5": "/steps/4/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_5f5b9751a2915967b24241b5ac5ab09b",
+    "record_question_id": "Q173",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/make-mips-interpreter__dpqkpkg/agent/trajectory.json",
+    "run_id": "make-mips-interpreter__dpqkpkg",
+    "task_id": "make-mips-interpreter",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/3/observation/results/0/content",
+      "E3": "/steps/33/message",
+      "E4": "/steps/33/reasoning_content",
+      "E5": "/steps/33/tool_calls/0/arguments",
+      "E6": "/steps/33/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_50f5221300d951488987451ee0c2986e",
+    "record_question_id": "Q174",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/make-mips-interpreter__dpqkpkg/agent/trajectory.json",
+    "run_id": "make-mips-interpreter__dpqkpkg",
+    "task_id": "make-mips-interpreter",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/57/message",
+      "E3": "/steps/57/reasoning_content",
+      "E4": "/steps/57/tool_calls/0/arguments",
+      "E5": "/steps/57/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_2c989f5b5ab158e7aecc34c9bb5fcf46",
+    "record_question_id": "Q178",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/merge-diff-arc-agi-task__GA8SsTu/agent/trajectory.json",
+    "run_id": "merge-diff-arc-agi-task__GA8SsTu",
+    "task_id": "merge-diff-arc-agi-task",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/7/message",
+      "E3": "/steps/7/reasoning_content",
+      "E4": "/steps/7/tool_calls/0/arguments",
+      "E5": "/steps/7/tool_calls/1/arguments",
+      "E6": "/steps/7/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_13ec6f2b5a8f55de906e6f2a33f3fc8d",
+    "record_question_id": "Q181",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/regex-chess__VxxGZZb/agent/trajectory.json",
+    "run_id": "regex-chess__VxxGZZb",
+    "task_id": "regex-chess",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/10/message",
+      "E3": "/steps/10/reasoning_content",
+      "E4": "/steps/10/tool_calls/0/arguments",
+      "E5": "/steps/10/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_6bb97e2abe9b574196d2b2b0988fd30f",
+    "record_question_id": "Q183",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/regex-chess__3EnEDj9/agent/trajectory.json",
+    "run_id": "regex-chess__3EnEDj9",
+    "task_id": "regex-chess",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/11/message",
+      "E3": "/steps/11/reasoning_content",
+      "E4": "/steps/11/tool_calls/0/arguments",
+      "E5": "/steps/11/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_7c966d37028e50fcaa6a0b5dc68aefae",
+    "record_question_id": "Q184",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__GLM-5/2026-02-14__13-57-51/distribution-search__YRKxeH9/agent/trajectory.json",
+    "run_id": "distribution-search__YRKxeH9",
+    "task_id": "distribution-search",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/1/reasoning_content",
+      "E4": "/steps/1/tool_calls/0/arguments",
+      "E5": "/steps/1/tool_calls/1/arguments",
+      "E6": "/steps/1/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/glm-5",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_61251efbc0fb5cbd990208a65ac8229c",
+    "record_question_id": "Q189",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/circuit-fibsqrt__LDjE7pW/agent/trajectory.json",
+    "run_id": "circuit-fibsqrt__LDjE7pW",
+    "task_id": "circuit-fibsqrt",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/10/message",
+      "E3": "/steps/10/reasoning_content",
+      "E4": "/steps/10/tool_calls/0/arguments",
+      "E5": "/steps/10/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_71451342ebc55832a0b233e3cab40f8c",
+    "record_question_id": "Q192",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Claude-Opus-4.6/2026-02-05__17-41-47/circuit-fibsqrt__yg9RzjY/agent/trajectory.json",
+    "run_id": "circuit-fibsqrt__yg9RzjY",
+    "task_id": "circuit-fibsqrt",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/4/tool_calls/0/arguments",
+      "E3": "/steps/12/message",
+      "E4": "/steps/12/reasoning_content",
+      "E5": "/steps/12/tool_calls/0/arguments",
+      "E6": "/steps/12/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "anthropic/claude-opus-4-6",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_abe9ac94f8945bc7af4e9ae3d937e5a2",
+    "record_question_id": "Q203",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Claude-Opus-4.6/2026-02-05__17-41-47/winning-avg-corewars__MiELKZd/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__MiELKZd",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E10": "/steps/4/observation/results/0/content",
+      "E2": "/steps/4/message",
+      "E3": "/steps/4/reasoning_content",
+      "E4": "/steps/4/tool_calls/0/arguments",
+      "E5": "/steps/4/tool_calls/1/arguments",
+      "E6": "/steps/4/tool_calls/2/arguments",
+      "E7": "/steps/4/tool_calls/3/arguments",
+      "E8": "/steps/4/tool_calls/4/arguments",
+      "E9": "/steps/4/tool_calls/5/arguments"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "anthropic/claude-opus-4-6",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b0040ded67c852d790b9d015d02b0182",
+    "record_question_id": "Q204",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Claude-Opus-4.6/2026-02-05__17-41-47/winning-avg-corewars__MiELKZd/agent/trajectory.json",
+    "run_id": "winning-avg-corewars__MiELKZd",
+    "task_id": "winning-avg-corewars",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/24/message",
+      "E3": "/steps/24/reasoning_content",
+      "E4": "/steps/24/tool_calls/0/arguments",
+      "E5": "/steps/24/tool_calls/1/arguments",
+      "E6": "/steps/24/tool_calls/2/arguments",
+      "E7": "/steps/24/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "anthropic/claude-opus-4-6",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b7dca70323eb5786a7106a73cf2a4040",
+    "record_question_id": "Q206",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/feal-differential-cryptanalysis__qgXFozv/agent/trajectory.json",
+    "run_id": "feal-differential-cryptanalysis__qgXFozv",
+    "task_id": "feal-differential-cryptanalysis",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/1/reasoning_content",
+      "E4": "/steps/1/tool_calls/0/arguments",
+      "E5": "/steps/1/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_8b096b869faa5d4e8416ad8ebef9ef99",
+    "record_question_id": "Q209",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/largest-eigenval__nRgD9R2/agent/trajectory.json",
+    "run_id": "largest-eigenval__nRgD9R2",
+    "task_id": "largest-eigenval",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/1/message",
+      "E3": "/steps/1/reasoning_content",
+      "E4": "/steps/1/tool_calls/0/arguments",
+      "E5": "/steps/1/tool_calls/1/arguments",
+      "E6": "/steps/1/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_6970d34518d752e0afb2c3a2cd66d8df",
+    "record_question_id": "Q210",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Kimi-k2.5/2026-01-26__22-34-00/torch-pipeline-parallelism__mNSFeTD/agent/trajectory.json",
+    "run_id": "torch-pipeline-parallelism__mNSFeTD",
+    "task_id": "torch-pipeline-parallelism",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/17/message",
+      "E3": "/steps/17/reasoning_content",
+      "E4": "/steps/17/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/kimi-k2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_9ecb1610bcf7573e96c7a51ddde6668a",
+    "record_question_id": "Q215",
+    "source_url": "https://huggingface.co/datasets/harborframework/terminal-bench-2-leaderboard/resolve/572b2614be2c0cb2527e14f5b1e4026f1072e6c1/submissions/terminal-bench/2.0/Terminus2__Minimax-m2.5/2026-02-18__13-31-00/circuit-fibsqrt__UgzzF82/agent/trajectory.json",
+    "run_id": "circuit-fibsqrt__UgzzF82",
+    "task_id": "circuit-fibsqrt",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/241/message",
+      "E3": "/steps/241/reasoning_content",
+      "E4": "/steps/241/tool_calls/0/arguments",
+      "E5": "/steps/241/observation/results/0/content"
+    },
+    "strata": {
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/minimax-m2.5:cloud",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_a860b5d79c9658d0a1e5bfb801b4dd0b",
+    "record_question_id": "Q218",
+    "run_id": "go-critic-doc-link-checker__ebTKtT8",
+    "task_id": "go-critic-doc-link-checker",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/5/observation/results/1/content/output",
+      "E3": "/steps/10/observation/results/0/content/output",
+      "E4": "/steps/16/message",
+      "E5": "/steps/16/reasoning_content",
+      "E6": "/steps/16/tool_calls/0/arguments/command",
+      "E7": "/steps/16/observation/results/0/content/returncode",
+      "E8": "/steps/16/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_0c9f56f1c5db58b48a02c38d87510094",
+    "record_question_id": "Q219",
+    "run_id": "fd-deterministic-multi-key-sorti__ZUaFJHt",
+    "task_id": "fd-deterministic-multi-key-sorting",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/17/message",
+      "E3": "/steps/17/reasoning_content",
+      "E4": "/steps/17/tool_calls/0/arguments/command",
+      "E5": "/steps/17/observation/results/0/content/returncode",
+      "E6": "/steps/17/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_d84e3b3e48485b3e8868d071146031eb",
+    "record_question_id": "Q220",
+    "run_id": "pest-character-class-coalescing__imkxxV6",
+    "task_id": "pest-character-class-coalescing",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/56/message",
+      "E3": "/steps/56/tool_calls/0/arguments/command",
+      "E4": "/steps/56/observation/results/0/content/returncode",
+      "E5": "/steps/56/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_4ba4f30e52f45df680a35271c689e581",
+    "record_question_id": "Q221",
+    "run_id": "pest-character-class-coalescing__imkxxV6",
+    "task_id": "pest-character-class-coalescing",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/62/message",
+      "E3": "/steps/62/tool_calls/0/arguments/command",
+      "E4": "/steps/62/observation/results/0/content/returncode",
+      "E5": "/steps/62/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_2e3be1ae69ec52aca6b4daaeae8394ea",
+    "record_question_id": "Q224",
+    "run_id": "pebble-durability-wait-apis__EPcrVFb",
+    "task_id": "pebble-durability-wait-apis",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/26/observation/results/0/content/output",
+      "E3": "/steps/55/tool_calls/0/arguments/command",
+      "E4": "/steps/59/message",
+      "E5": "/steps/59/tool_calls/0/arguments/command",
+      "E6": "/steps/59/observation/results/0/content/returncode",
+      "E7": "/steps/59/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_df09a1439c3a575aad96258a924cca15",
+    "record_question_id": "Q228",
+    "run_id": "helm-unified-manifest-stream__rgLGAjZ",
+    "task_id": "helm-unified-manifest-stream",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/30/message",
+      "E3": "/steps/30/reasoning_content",
+      "E4": "/steps/30/tool_calls/0/arguments/command",
+      "E5": "/steps/30/observation/results/0/content/returncode",
+      "E6": "/steps/30/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_753794db165f5a388e26d2ffba6b5b8d",
+    "record_question_id": "Q230",
+    "run_id": "scriggo-method-declarations__RZVHCKP",
+    "task_id": "scriggo-method-declarations",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/63/tool_calls/0/arguments/command",
+      "E3": "/steps/66/message",
+      "E4": "/steps/66/tool_calls/0/arguments/command",
+      "E5": "/steps/66/observation/results/0/content/returncode",
+      "E6": "/steps/66/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_1919a124817a528ca5f46a6dae40669a",
+    "record_question_id": "Q231",
+    "run_id": "pest-character-class-coalescing__RAa9Fqa",
+    "task_id": "pest-character-class-coalescing",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/37/observation/results/0/content/output",
+      "E3": "/steps/38/observation/results/0/content/output",
+      "E4": "/steps/42/message",
+      "E5": "/steps/42/reasoning_content",
+      "E6": "/steps/42/tool_calls/0/arguments/command",
+      "E7": "/steps/42/observation/results/0/content/returncode",
+      "E8": "/steps/42/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_d014cbe633795df3ad61544634fa9aee",
+    "record_question_id": "Q234",
+    "run_id": "pest-character-class-coalescing__BmCUoAg",
+    "task_id": "pest-character-class-coalescing",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/40/message",
+      "E3": "/steps/40/tool_calls/0/arguments/command",
+      "E4": "/steps/40/observation/results/0/content/returncode",
+      "E5": "/steps/40/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_24712df61b6f518a8ba33b5f3d75dd04",
+    "record_question_id": "Q239",
+    "run_id": "actionlint-action-pinning-lint__UtQ9ocT",
+    "task_id": "actionlint-action-pinning-lint",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/13/reasoning_content",
+      "E3": "/steps/13/tool_calls/0/arguments/command",
+      "E4": "/steps/13/observation/results/0/content/returncode",
+      "E5": "/steps/13/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_a6e836feab0b5c28817679f561ce45c7",
+    "record_question_id": "Q241",
+    "run_id": "prometheus-typed-label-sorting__J4eNFyd",
+    "task_id": "prometheus-typed-label-sorting",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/13/tool_calls/0/arguments/command",
+      "E3": "/steps/14/message",
+      "E4": "/steps/14/reasoning_content",
+      "E5": "/steps/14/tool_calls/0/arguments/command",
+      "E6": "/steps/14/observation/results/0/content/returncode",
+      "E7": "/steps/14/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_89bd0c229c895f9ea25c915104951a8c",
+    "record_question_id": "Q244",
+    "run_id": "httpx-deterministic-cookie-store__wDSDBu3",
+    "task_id": "httpx-deterministic-cookie-store",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/8/message",
+      "E3": "/steps/8/reasoning_content",
+      "E4": "/steps/8/tool_calls/0/arguments/command",
+      "E5": "/steps/8/observation/results/0/content/returncode",
+      "E6": "/steps/8/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_52f2f88bb02557a7a59fd06f53dd0796",
+    "record_question_id": "Q245",
+    "run_id": "testem-bail-on-test-failure__zdhnaVM",
+    "task_id": "testem-bail-on-test-failure",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/6/tool_calls/0/arguments/command",
+      "E3": "/steps/29/message",
+      "E4": "/steps/29/reasoning_content",
+      "E5": "/steps/29/tool_calls/0/arguments/command",
+      "E6": "/steps/29/observation/results/0/content/returncode",
+      "E7": "/steps/29/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_7edca5a0a80151c78fb3438affd157f6",
+    "record_question_id": "Q249",
+    "run_id": "fastapi-implicit-head-options__NxLS48S",
+    "task_id": "fastapi-implicit-head-options",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/95/message",
+      "E3": "/steps/96/observation/results/0/content/output",
+      "E4": "/steps/97/message",
+      "E5": "/steps/97/reasoning_content",
+      "E6": "/steps/97/tool_calls/0/arguments/command",
+      "E7": "/steps/97/observation/results/0/content/returncode",
+      "E8": "/steps/97/observation/results/0/content/output"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openai/gpt-5.6-sol",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_da2dfaefb7195ebda4d89b1670ad21f7",
+    "record_question_id": "Q253",
+    "run_id": "zstd-decoder-glm53-flash-max-04",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/120/reasoning_content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_5ac725ab4b405023a7b0f70475249a15",
+    "record_question_id": "Q255",
+    "run_id": "excel-clone-685bff89-1009",
+    "task_id": "excel-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/83/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_acfd134d80fe599d88944e98223bc363",
+    "record_question_id": "Q256",
+    "run_id": "zstd-decoder-72bbfded-378",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/6/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_10ecb99d12e35868af591175c09e8025",
+    "record_question_id": "Q257",
+    "run_id": "excel-clone-glm53-flash-max-07",
+    "task_id": "excel-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/18/message"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_a9f22278fdec5b1facbb639688c87d15",
+    "record_question_id": "Q263",
+    "run_id": "rust-c-compiler-57913cbe-503",
+    "task_id": "rust-c-compiler",
+    "evidence_json_pointers": {
+      "E1": "/steps/452/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_02a86e219dfd56a5bcf039aec08a9bab",
+    "record_question_id": "Q270",
+    "run_id": "parameter-golf-61e11605-616",
+    "task_id": "parameter-golf",
+    "evidence_json_pointers": {
+      "E1": "/steps/12/tool_calls/0/arguments",
+      "E2": "/steps/31/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e1023e8d6fcf53eaa18c84f15b13081b",
+    "record_question_id": "Q271",
+    "run_id": "zstd-decoder-glm53-flash-max-03",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/5/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_464483f8176d5465bcb45eaf793f6fdd",
+    "record_question_id": "Q274",
+    "run_id": "vliw-kernel-optimization-e4d25121-413",
+    "task_id": "vliw-kernel-optimization",
+    "evidence_json_pointers": {
+      "E1": "/steps/61/message",
+      "E2": "/steps/109/message"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_6d82763b048c56a4bbd0dc09267753fa",
+    "record_question_id": "Q277",
+    "run_id": "excel-clone-685bff89-678",
+    "task_id": "excel-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/75/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b16de7277d5c57d6b332359efb639455",
+    "record_question_id": "Q278",
+    "run_id": "zstd-decoder-72bbfded-379",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/76/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_047e78f84395511aa728e8b642ec3c74",
+    "record_question_id": "Q279",
+    "run_id": "nextjs-vite-rewrite-glm53-flash-max-02",
+    "task_id": "nextjs-vite-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/773/tool_calls/0/arguments",
+      "E2": "/steps/781/tool_calls/0/arguments",
+      "E3": "/steps/781/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_4fa393919d6258a9b018a406af92e50e",
+    "record_question_id": "Q284",
+    "run_id": "kubernetes-rust-rewrite-ecef12ce-99",
+    "task_id": "kubernetes-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/5/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_d99a95b6e0ee524998c1794b83513b42",
+    "record_question_id": "Q286",
+    "run_id": "parameter-golf-61e11605-409",
+    "task_id": "parameter-golf",
+    "evidence_json_pointers": {
+      "E1": "/steps/7/tool_calls/0/arguments",
+      "E2": "/steps/11/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_fd765eee47b65d4eae716f9fc9d96400",
+    "record_question_id": "Q289",
+    "run_id": "slack-clone-b0a98beb-642",
+    "task_id": "slack-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/28/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_cb9b37831a8854649504a2de81d3a03e",
+    "record_question_id": "Q291",
+    "run_id": "s3-clone-23996371-202",
+    "task_id": "s3-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/9/tool_calls/0/arguments",
+      "E2": "/steps/9/observation/results/0/content",
+      "E3": "/steps/10/tool_calls/0/arguments",
+      "E4": "/steps/10/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_bca0471be87b55a29de73765ad0b7ebd",
+    "record_question_id": "Q292",
+    "run_id": "mastodon-clone-glm53-flash-max-05",
+    "task_id": "mastodon-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/47/tool_calls/0/arguments",
+      "E2": "/steps/361/observation/results/0/content",
+      "E3": "/steps/366/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_2aae75fe144c52c4a868d9a882eafc6c",
+    "record_question_id": "Q298",
+    "run_id": "biofabric-rust-rewrite-897c0fc8-185",
+    "task_id": "biofabric-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/114/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e099265921935960b48ba0b6d77c6f2c",
+    "record_question_id": "Q301",
+    "run_id": "find-network-alignments-b2ecebb7-357",
+    "task_id": "find-network-alignments",
+    "evidence_json_pointers": {
+      "E1": "/steps/39/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_0015f122e4bf561f87c3c99ca54bef93",
+    "record_question_id": "Q303",
+    "run_id": "zstd-decoder-glm53-flash-max-01",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/50/observation/results/0/content",
+      "E2": "/steps/51/observation/results/0/content",
+      "E3": "/steps/52/reasoning_content",
+      "E4": "/steps/53/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e65ad9d39f20523cb2567a86302cba3b",
+    "record_question_id": "Q305",
+    "run_id": "rust-c-compiler-57913cbe-512",
+    "task_id": "rust-c-compiler",
+    "evidence_json_pointers": {
+      "E1": "/steps/18/tool_calls/0/arguments",
+      "E2": "/steps/370/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_18902b3f7b6d522897b8fa4c0cee5cca",
+    "record_question_id": "Q314",
+    "run_id": "biofabric-rust-rewrite-897c0fc8-182",
+    "task_id": "biofabric-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/103/observation/results/0/content",
+      "E2": "/steps/210/reasoning_content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e5b4cb7e12ec53a5ad6c58c9614baefb",
+    "record_question_id": "Q315",
+    "run_id": "s3-clone-23996371-155",
+    "task_id": "s3-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/104/tool_calls/1/arguments",
+      "E2": "/steps/104/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_04b8ffaad3d05175bd2c5931bce6983e",
+    "record_question_id": "Q317",
+    "run_id": "kubernetes-rust-rewrite-ecef12ce-85",
+    "task_id": "kubernetes-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/291/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_0d9434891d9f559aaf7a3c3eb0d12693",
+    "record_question_id": "Q318",
+    "run_id": "rust-java-lsp-0a9c67d6-465",
+    "task_id": "rust-java-lsp",
+    "evidence_json_pointers": {
+      "E1": "/steps/329/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_2db4755c1d7d51d98dde565585018ad2",
+    "record_question_id": "Q319",
+    "run_id": "trimul-cuda-glm53-flash-max-08",
+    "task_id": "trimul-cuda",
+    "evidence_json_pointers": {
+      "E1": "/steps/150/reasoning_content",
+      "E2": "/steps/150/tool_calls/0/arguments",
+      "E3": "/steps/155/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_35c92f6d50365eefb48cff66bd6c16d4",
+    "record_question_id": "Q323",
+    "run_id": "wasm-simd-40e18127-469",
+    "task_id": "wasm-simd",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/150/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_bd746d9cabcb53cbb3dd3c0a4cfb2221",
+    "record_question_id": "Q324",
+    "run_id": "ruby-rust-port-383776ff-505",
+    "task_id": "ruby-rust-port",
+    "evidence_json_pointers": {
+      "E1": "/steps/180/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_2539852891065411875f8132fc364abe",
+    "record_question_id": "Q330",
+    "run_id": "biofabric-rust-rewrite-897c0fc8-195",
+    "task_id": "biofabric-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/340/observation/results/0/content",
+      "E2": "/steps/341/message"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_4fa2d8b1e6e95cb5a296bd10a4592412",
+    "record_question_id": "Q333",
+    "run_id": "zstd-decoder-72bbfded-579",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/13/tool_calls/0/arguments",
+      "E2": "/steps/129/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_a37b7316201054018c968401a868d00f",
+    "record_question_id": "Q334",
+    "run_id": "zstd-decoder-72bbfded-591",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/194/tool_calls/0/arguments",
+      "E2": "/steps/346/tool_calls/0/arguments",
+      "E3": "/steps/347/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_84ebbb5f83af5a1590f62c56c9538cb6",
+    "record_question_id": "Q337",
+    "run_id": "parameter-golf-glm53-flash-max-02",
+    "task_id": "parameter-golf",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/observation/results/0/content",
+      "E2": "/steps/2/observation/results/0/content",
+      "E3": "/steps/2/observation/results/1/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_97f1368a16f954b3a079be8c1ee4b50e",
+    "record_question_id": "Q346",
+    "run_id": "jax-pytorch-rewrite-93c38683-116",
+    "task_id": "jax-pytorch-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/61/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_8836ec0947605754a31baa1684f430a8",
+    "record_question_id": "Q359",
+    "run_id": "jax-pytorch-rewrite-93c38683-57",
+    "task_id": "jax-pytorch-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/2/observation/results/0/content",
+      "E2": "/steps/3/observation/results/0/content",
+      "E3": "/steps/58/reasoning_content",
+      "E4": "/steps/70/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b5801deb48f457c5b82dda72fcc6582d",
+    "record_question_id": "Q363",
+    "run_id": "post-train-ifeval-gpu-1de1166a-344",
+    "task_id": "post-train-ifeval-gpu",
+    "evidence_json_pointers": {
+      "E1": "/steps/127/reasoning_content",
+      "E2": "/steps/127/tool_calls/0/arguments",
+      "E3": "/steps/129/observation/results/0/content",
+      "E4": "/steps/50/observation/results/0/content",
+      "E5": "/steps/84/observation/results/0/extra/tool_result_metadata/tool_use_result/originalFile",
+      "E6": "/steps/84/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e8c69d95780d55d3bc111228d0b1d93d",
+    "record_question_id": "Q371",
+    "run_id": "stripe-clone-66061f4d-351",
+    "task_id": "stripe-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/8/observation/results/0/content",
+      "E2": "/steps/25/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e6a0603b09325c6db6d5c13f5263160c",
+    "record_question_id": "Q372",
+    "run_id": "kubernetes-rust-rewrite-bae0f616-412",
+    "task_id": "kubernetes-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/233/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_21776dbb5af35b589450026d74c41cb6",
+    "record_question_id": "Q373",
+    "run_id": "wasm-simd-glm53-flash-max-06",
+    "task_id": "wasm-simd",
+    "evidence_json_pointers": {
+      "E1": "/steps/33/message",
+      "E2": "/steps/68/tool_calls/0/arguments",
+      "E3": "/steps/68/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_da787b5bac635cfe85bd1b507e62299a",
+    "record_question_id": "Q377",
+    "run_id": "parameter-golf-61e11605-594",
+    "task_id": "parameter-golf",
+    "evidence_json_pointers": {
+      "E1": "/steps/4/tool_calls/0/arguments",
+      "E2": "/steps/33/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_1002213fc9ff5a0e91dcfef86aae6e1c",
+    "record_question_id": "Q378",
+    "run_id": "rust-c-compiler-glm53-flash-max-04",
+    "task_id": "rust-c-compiler",
+    "evidence_json_pointers": {
+      "E1": "/steps/126/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_9f6a143471d557eabeb354e7acd534fc",
+    "record_question_id": "Q379",
+    "run_id": "ruby-rust-port-383776ff-485",
+    "task_id": "ruby-rust-port",
+    "evidence_json_pointers": {
+      "E1": "/steps/231/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_35747c21032058299038543e5c8527d6",
+    "record_question_id": "Q384",
+    "run_id": "nextjs-vite-rewrite-b0d028b0-216",
+    "task_id": "nextjs-vite-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/73/tool_calls/0/arguments",
+      "E2": "/steps/73/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_08694d6d0c1e55a5bce668b4d54d10d0",
+    "record_question_id": "Q386",
+    "run_id": "trimul-cuda-fc34aaba-502",
+    "task_id": "trimul-cuda",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/29/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_4a81ba0fd55c574e866cc3b736f22947",
+    "record_question_id": "Q387",
+    "run_id": "excel-clone-glm53-flash-max-02",
+    "task_id": "excel-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/478/tool_calls/0/arguments",
+      "E3": "/steps/478/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_1ca56fd2774b5fdba01fecee75308af4",
+    "record_question_id": "Q389",
+    "run_id": "kubernetes-rust-rewrite-bae0f616-426",
+    "task_id": "kubernetes-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/41/observation/results/2/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_b4fe53634e6e53b0b57e02b089188665",
+    "record_question_id": "Q396",
+    "run_id": "biofabric-rust-rewrite-897c0fc8-360",
+    "task_id": "biofabric-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/254/observation/results/0/content",
+      "E2": "/steps/255/observation/results/0/content",
+      "E3": "/steps/575/tool_calls/0/arguments",
+      "E4": "/steps/575/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "moonshot/luminous[1m]",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_ba4214876c265604b5c92232a6fc1162",
+    "record_question_id": "Q398",
+    "run_id": "jax-pytorch-rewrite-93c38683-119",
+    "task_id": "jax-pytorch-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/63/tool_calls/0/arguments",
+      "E2": "/steps/64/message",
+      "E3": "/steps/64/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_e73e4489f9ec5106a892b37981e49715",
+    "record_question_id": "Q412",
+    "run_id": "biofabric-rust-rewrite-glm53-flash-max-07",
+    "task_id": "biofabric-rust-rewrite",
+    "evidence_json_pointers": {
+      "E1": "/steps/3/observation/results/0/content",
+      "E2": "/steps/126/observation/results/0/content",
+      "E3": "/steps/584/observation/results/0/content",
+      "E4": "/steps/1083/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_0a47f52622815901b705bbda28403295",
+    "record_question_id": "Q420",
+    "run_id": "slack-clone-b0a98beb-230",
+    "task_id": "slack-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/66/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_252689295f2f5e41b4271da60e607506",
+    "record_question_id": "Q423",
+    "run_id": "trimul-cuda-fc34aaba-501",
+    "task_id": "trimul-cuda",
+    "evidence_json_pointers": {
+      "E1": "/steps/39/tool_calls/0/arguments",
+      "E2": "/steps/39/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/minimax/minimax-m2.7",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_267dc89500ba5033914f547968f0c0c8",
+    "record_question_id": "Q425",
+    "run_id": "excel-clone-glm53-flash-max-03",
+    "task_id": "excel-clone",
+    "evidence_json_pointers": {
+      "E1": "/steps/0/message",
+      "E2": "/steps/719/tool_calls/0/arguments/command",
+      "E3": "/steps/719/observation/results/0/content"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "zai/glm-5.3-flash",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_4d850c268b3d5101b50688dda9559e48",
+    "record_question_id": "Q426",
+    "run_id": "zstd-decoder-72bbfded-371",
+    "task_id": "zstd-decoder",
+    "evidence_json_pointers": {
+      "E1": "/steps/18/observation/results/0/content",
+      "E2": "/steps/125/tool_calls/0/arguments"
+    },
+    "strata": {
+      "benchmark": "swe-marathon",
+      "input_condition": "evidence_packet",
+      "nature": "fact_behavior",
+      "source_model": "openrouter/deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    }
+  },
+  {
+    "question_id": "q_710522a7fa59584f9df30d572c76ab73",
+    "record_question_id": "Q432",
+    "run_id": "prometheus-transactional-reload__S77EJPR",
+    "task_id": "prometheus-transactional-reload-status",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-0e0b3785b2131447",
+      "benchmark": "deepswe",
+      "run_id": "prometheus-transactional-reload__S77EJPR",
+      "task_id": "prometheus-transactional-reload-status",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_866380f96d3f5f67b000c01758e1e73b",
+    "record_question_id": "Q435",
+    "run_id": "obsidian-linter-link-format-conv__MHHzcYx",
+    "task_id": "obsidian-linter-link-format-conversion",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/44/tool_calls/0/arguments/command",
+      "E3": "/steps/27/observation/results/0/content/output_head"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-1444e69cc2d6f42d",
+      "benchmark": "deepswe",
+      "run_id": "obsidian-linter-link-format-conv__MHHzcYx",
+      "task_id": "obsidian-linter-link-format-conversion",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_92b1dd1a259b52b0b09680d43dd6ddb2",
+    "record_question_id": "Q438",
+    "run_id": "kombu-single-active-consumer-pri__vzPmuhZ",
+    "task_id": "kombu-single-active-consumer-priority",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-1f2f160a2db129f1",
+      "benchmark": "deepswe",
+      "run_id": "kombu-single-active-consumer-pri__vzPmuhZ",
+      "task_id": "kombu-single-active-consumer-priority",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_504a320fb6ae5a6c8091ac4cbf2c933f",
+    "record_question_id": "Q441",
+    "run_id": "langchain-request-coalescing__tQRLK9L",
+    "task_id": "langchain-request-coalescing",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-2c60c42550035369",
+      "benchmark": "deepswe",
+      "run_id": "langchain-request-coalescing__tQRLK9L",
+      "task_id": "langchain-request-coalescing",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_18fab1f5a9e758b199ed45f1c93170fe",
+    "record_question_id": "Q442",
+    "run_id": "koota-pair-relation-tracking__dtrdztq",
+    "task_id": "koota-pair-relation-tracking",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-2cadb320f2d51f3a",
+      "benchmark": "deepswe",
+      "run_id": "koota-pair-relation-tracking__dtrdztq",
+      "task_id": "koota-pair-relation-tracking",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_f0329ca9c89f5c18ac06651004ff0005",
+    "record_question_id": "Q444",
+    "run_id": "go-git-worktree-merge-conflicts__y5nfSNe",
+    "task_id": "go-git-worktree-merge-conflicts",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-41dc8efed3d4390c",
+      "benchmark": "deepswe",
+      "run_id": "go-git-worktree-merge-conflicts__y5nfSNe",
+      "task_id": "go-git-worktree-merge-conflicts",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_1d7647614d7054db8717704d6cd82cd5",
+    "record_question_id": "Q448",
+    "run_id": "sqlite-utils-safe-import-checkpo__yncgRpn",
+    "task_id": "sqlite-utils-safe-import-checkpoints",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-4a4819df378023bd",
+      "benchmark": "deepswe",
+      "run_id": "sqlite-utils-safe-import-checkpo__yncgRpn",
+      "task_id": "sqlite-utils-safe-import-checkpoints",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_b1b630fc0e67554fbb0d43bb52cdf749",
+    "record_question_id": "Q449",
+    "run_id": "mobly-grouped-test-barriers__uune4Yr",
+    "task_id": "mobly-grouped-test-barriers",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-513ab13f18fd2a26",
+      "benchmark": "deepswe",
+      "run_id": "mobly-grouped-test-barriers__uune4Yr",
+      "task_id": "mobly-grouped-test-barriers",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_42e64f66eed2548ab5a60db7f5cf8c46",
+    "record_question_id": "Q450",
+    "run_id": "anko-default-function-arguments__tjKrZkj",
+    "task_id": "anko-default-function-arguments",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-56268f33aca18756",
+      "benchmark": "deepswe",
+      "run_id": "anko-default-function-arguments__tjKrZkj",
+      "task_id": "anko-default-function-arguments",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_1f2c8d439c4653c6a1fbbc17fd35dae8",
+    "record_question_id": "Q451",
+    "run_id": "obsidian-linter-scoped-ignore-ma__BHgyGGZ",
+    "task_id": "obsidian-linter-scoped-ignore-markers",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-61fcbb6d8e153fd1",
+      "benchmark": "deepswe",
+      "run_id": "obsidian-linter-scoped-ignore-ma__BHgyGGZ",
+      "task_id": "obsidian-linter-scoped-ignore-markers",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_e444754d4a5256429365f2cfca9bc6be",
+    "record_question_id": "Q452",
+    "run_id": "cattrs-partial-structuring-recov__79z3wAi",
+    "task_id": "cattrs-partial-structuring-recovery",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-6f333d9b80660c68",
+      "benchmark": "deepswe",
+      "run_id": "cattrs-partial-structuring-recov__79z3wAi",
+      "task_id": "cattrs-partial-structuring-recovery",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_59888dae268c5324808a1d15b383331e",
+    "record_question_id": "Q454",
+    "run_id": "vulture-persistent-analysis-cach__2RQZmmU",
+    "task_id": "vulture-persistent-analysis-cache",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-7540ae833bb59a8e",
+      "benchmark": "deepswe",
+      "run_id": "vulture-persistent-analysis-cach__2RQZmmU",
+      "task_id": "vulture-persistent-analysis-cache",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_fbe8203cb75d5c44ae708b52c2ef91c0",
+    "record_question_id": "Q455",
+    "run_id": "adaptix-name-mapping-aliases__wq5zA2D",
+    "task_id": "adaptix-name-mapping-aliases",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-7b114bea507db24a",
+      "benchmark": "deepswe",
+      "run_id": "adaptix-name-mapping-aliases__wq5zA2D",
+      "task_id": "adaptix-name-mapping-aliases",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_0329160a430e50378e0b210aa8f7c0e9",
+    "record_question_id": "Q456",
+    "run_id": "bandit-structured-nosec-directiv__uyXxYKG",
+    "task_id": "bandit-structured-nosec-directives",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-92454c045a33c1ef",
+      "benchmark": "deepswe",
+      "run_id": "bandit-structured-nosec-directiv__uyXxYKG",
+      "task_id": "bandit-structured-nosec-directives",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_1855676be5a45134bba7609cea4baa45",
+    "record_question_id": "Q465",
+    "run_id": "helm-unified-manifest-stream__BYxv754",
+    "task_id": "helm-unified-manifest-stream",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-a83001769fbaafc5",
+      "benchmark": "deepswe",
+      "run_id": "helm-unified-manifest-stream__BYxv754",
+      "task_id": "helm-unified-manifest-stream",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_6a23c4c3e6285651ac4dc66afd58090a",
+    "record_question_id": "Q467",
+    "run_id": "pebble-durability-wait-apis__zmqU7XJ",
+    "task_id": "pebble-durability-wait-apis",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-a9824d9331384bc1",
+      "benchmark": "deepswe",
+      "run_id": "pebble-durability-wait-apis__zmqU7XJ",
+      "task_id": "pebble-durability-wait-apis",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_dbf16b19a2665575b1088d312b8e1518",
+    "record_question_id": "Q468",
+    "run_id": "updo-policy-alerting__eUYPrqK",
+    "task_id": "updo-policy-alerting",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-a98a41514dfcdd63",
+      "benchmark": "deepswe",
+      "run_id": "updo-policy-alerting__eUYPrqK",
+      "task_id": "updo-policy-alerting",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_1806e8ca3da85c4dab6b42cb88fbc45f",
+    "record_question_id": "Q472",
+    "run_id": "ofetch-per-origin-circuit-breake__RjV8JfC",
+    "task_id": "ofetch-per-origin-circuit-breaker",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-ada253c0ae5c982d",
+      "benchmark": "deepswe",
+      "run_id": "ofetch-per-origin-circuit-breake__RjV8JfC",
+      "task_id": "ofetch-per-origin-circuit-breaker",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_104add88dfae58b2bb594b6ec8079c7d",
+    "record_question_id": "Q473",
+    "run_id": "igel-persist-feature-schema__rHoksXZ",
+    "task_id": "igel-persist-feature-schema",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-b1a259530cd38e99",
+      "benchmark": "deepswe",
+      "run_id": "igel-persist-feature-schema__rHoksXZ",
+      "task_id": "igel-persist-feature-schema",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_7378abe4af02544888d8ad7a9b1955ff",
+    "record_question_id": "Q476",
+    "run_id": "testem-bail-on-test-failure__X6W7Tyd",
+    "task_id": "testem-bail-on-test-failure",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-d08b683c52681316",
+      "benchmark": "deepswe",
+      "run_id": "testem-bail-on-test-failure__X6W7Tyd",
+      "task_id": "testem-bail-on-test-failure",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_0405ccd6280450ca927baa980a4ad85d",
+    "record_question_id": "Q477",
+    "run_id": "narwhals-rolling-window-suite__34PAqN9",
+    "task_id": "narwhals-rolling-window-suite",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-d3547ce6816704ea",
+      "benchmark": "deepswe",
+      "run_id": "narwhals-rolling-window-suite__34PAqN9",
+      "task_id": "narwhals-rolling-window-suite",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_03bbf1bc3fb158b68cf5494c7f12166f",
+    "record_question_id": "Q479",
+    "run_id": "fastapi-implicit-head-options__VR4r8ZN",
+    "task_id": "fastapi-implicit-head-options",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-dd3ae14cc4dc3302",
+      "benchmark": "deepswe",
+      "run_id": "fastapi-implicit-head-options__VR4r8ZN",
+      "task_id": "fastapi-implicit-head-options",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_5f8d7914322d59c4aa263a9945813cf6",
+    "record_question_id": "Q482",
+    "run_id": "mnamer-daemon-watch-lifecycle__CtXxvBB",
+    "task_id": "mnamer-daemon-watch-lifecycle",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-01b7232bcab955f2",
+      "benchmark": "deepswe",
+      "run_id": "mnamer-daemon-watch-lifecycle__CtXxvBB",
+      "task_id": "mnamer-daemon-watch-lifecycle",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_a3fcb7e89b355613a045c31163d079f5",
+    "record_question_id": "Q484",
+    "run_id": "updo-policy-alerting__Kjc4jiX",
+    "task_id": "updo-policy-alerting",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-12ecb5ace0b7f02e",
+      "benchmark": "deepswe",
+      "run_id": "updo-policy-alerting__Kjc4jiX",
+      "task_id": "updo-policy-alerting",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_6151fe97d8565a40ad8bf1cdc6f4b15c",
+    "record_question_id": "Q486",
+    "run_id": "vitest-duration-sharding__5ujTpJW",
+    "task_id": "vitest-duration-sharding",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-24dfc3706520bd23",
+      "benchmark": "deepswe",
+      "run_id": "vitest-duration-sharding__5ujTpJW",
+      "task_id": "vitest-duration-sharding",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_7c1ea5a5b9be5eb691feb96eb581fadd",
+    "record_question_id": "Q487",
+    "run_id": "abs-stepped-slices__Fauf7Ui",
+    "task_id": "abs-stepped-slices",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-3eb09c790212c7ca",
+      "benchmark": "deepswe",
+      "run_id": "abs-stepped-slices__Fauf7Ui",
+      "task_id": "abs-stepped-slices",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_aba0b22b6be0599399ae6336cacd14dd",
+    "record_question_id": "Q488",
+    "run_id": "superjson-error-stack-serializat__68PWpuu",
+    "task_id": "superjson-error-stack-serialization",
+    "evidence_json_pointers": {
+      "E1": "/steps/1/message",
+      "E2": "/steps/11/tool_calls/0/arguments/command",
+      "E3": "/steps/29/tool_calls/0/arguments/command"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-3f34677e49ae7e45",
+      "benchmark": "deepswe",
+      "run_id": "superjson-error-stack-serializat__68PWpuu",
+      "task_id": "superjson-error-stack-serialization",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_d05f8adea2ed500a85e5bdca205148a0",
+    "record_question_id": "Q492",
+    "run_id": "scc-bounded-memory-spilling__egvUsxt",
+    "task_id": "scc-bounded-memory-spilling",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-559c91d515f91c22",
+      "benchmark": "deepswe",
+      "run_id": "scc-bounded-memory-spilling__egvUsxt",
+      "task_id": "scc-bounded-memory-spilling",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_72b8f9bd6b83541b8c2544c73b9ebab8",
+    "record_question_id": "Q493",
+    "run_id": "vitest-duration-sharding__GEgyT4T",
+    "task_id": "vitest-duration-sharding",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-56960b4804a25d94",
+      "benchmark": "deepswe",
+      "run_id": "vitest-duration-sharding__GEgyT4T",
+      "task_id": "vitest-duration-sharding",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_c471288a66f855ab84ea77abc0770e06",
+    "record_question_id": "Q494",
+    "run_id": "fastapi-implicit-head-options__TsRUmGH",
+    "task_id": "fastapi-implicit-head-options",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-641ed859cb324de6",
+      "benchmark": "deepswe",
+      "run_id": "fastapi-implicit-head-options__TsRUmGH",
+      "task_id": "fastapi-implicit-head-options",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_5f424f8858cf52e4b6744273960f8f87",
+    "record_question_id": "Q495",
+    "run_id": "expr-try-catch-errors__PLQka7s",
+    "task_id": "expr-try-catch-errors",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-6a93ec77a5454540",
+      "benchmark": "deepswe",
+      "run_id": "expr-try-catch-errors__PLQka7s",
+      "task_id": "expr-try-catch-errors",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_7cb15b513936582596ea7856cd69dfb5",
+    "record_question_id": "Q502",
+    "run_id": "anko-default-function-arguments__zR9Hgro",
+    "task_id": "anko-default-function-arguments",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-8e099ffbc4200aaa",
+      "benchmark": "deepswe",
+      "run_id": "anko-default-function-arguments__zR9Hgro",
+      "task_id": "anko-default-function-arguments",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_73791b7e7cea5253a26ff7e95d12369f",
+    "record_question_id": "Q504",
+    "run_id": "clack-async-autocomplete-options__YyMpPkZ",
+    "task_id": "clack-async-autocomplete-options",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-981af0b4c1f579b3",
+      "benchmark": "deepswe",
+      "run_id": "clack-async-autocomplete-options__YyMpPkZ",
+      "task_id": "clack-async-autocomplete-options",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_8dc102b86eb05997a101fc22ef0e49be",
+    "record_question_id": "Q510",
+    "run_id": "abs-module-cache-flags__sp2sfDR",
+    "task_id": "abs-module-cache-flags",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "glm-5-2",
+      "source_model": "zai/glm-5.2",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-d1ebcd8540e7141e",
+      "benchmark": "deepswe",
+      "run_id": "abs-module-cache-flags__sp2sfDR",
+      "task_id": "abs-module-cache-flags",
+      "source_model": "zai/glm-5.2",
+      "reasoning_effort": "max",
+      "source_group": "glm-5-2"
+    }
+  },
+  {
+    "question_id": "q_30830f6ab79555d5bd0a9ed0a158bdfc",
+    "record_question_id": "Q512",
+    "run_id": "mashumaro-flattened-dataclass-fi__pih7iMX",
+    "task_id": "mashumaro-flattened-dataclass-fields",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-dc859ae42db2f440",
+      "benchmark": "deepswe",
+      "run_id": "mashumaro-flattened-dataclass-fi__pih7iMX",
+      "task_id": "mashumaro-flattened-dataclass-fields",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_9ae81fb453f352d4bff817eee5ceb2c3",
+    "record_question_id": "Q513",
+    "run_id": "httpx-multipart-response-parsing__VxKK35j",
+    "task_id": "httpx-multipart-response-parsing",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "source_group": "kimi-k2-7-code",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-eba1d291eed4a658",
+      "benchmark": "deepswe",
+      "run_id": "httpx-multipart-response-parsing__VxKK35j",
+      "task_id": "httpx-multipart-response-parsing",
+      "source_model": "moonshotai/kimi-k2.7-code",
+      "reasoning_effort": null,
+      "source_group": "kimi-k2-7-code"
+    }
+  },
+  {
+    "question_id": "q_d16b3e03690e5c299069e9e1ddd14951",
+    "record_question_id": "Q518",
+    "run_id": "aiomonitor-task-snapshots-diff__ELHqp3t",
+    "task_id": "aiomonitor-task-snapshots-diff",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-275dc62315dddd20",
+      "benchmark": "deepswe",
+      "run_id": "aiomonitor-task-snapshots-diff__ELHqp3t",
+      "task_id": "aiomonitor-task-snapshots-diff",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_719e21a5de5e5c50aa507dbbdbd84bfb",
+    "record_question_id": "Q521",
+    "run_id": "numba-stencil-boundary-modes__piJ3jNL",
+    "task_id": "numba-stencil-boundary-modes",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-31973769848db95a",
+      "benchmark": "deepswe",
+      "run_id": "numba-stencil-boundary-modes__piJ3jNL",
+      "task_id": "numba-stencil-boundary-modes",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_be9bdc73c38a5169beecdb981b87016c",
+    "record_question_id": "Q523",
+    "run_id": "ytt-jsonpath-query-api__QBDBNVq",
+    "task_id": "ytt-jsonpath-query-api",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-58ebf9f9fe25a0cd",
+      "benchmark": "deepswe",
+      "run_id": "ytt-jsonpath-query-api__QBDBNVq",
+      "task_id": "ytt-jsonpath-query-api",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_426ea31122705cb89fdd61a843f792c4",
+    "record_question_id": "Q524",
+    "run_id": "kombu-single-active-consumer-pri__jPheqJw",
+    "task_id": "kombu-single-active-consumer-priority",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-66709583ba9eb6b8",
+      "benchmark": "deepswe",
+      "run_id": "kombu-single-active-consumer-pri__jPheqJw",
+      "task_id": "kombu-single-active-consumer-priority",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_26c0ebb473ff50f1b66404c43eaedf05",
+    "record_question_id": "Q529",
+    "run_id": "happy-dom-abort-pending-body-rea__4pLG4Qr",
+    "task_id": "happy-dom-abort-pending-body-reads",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-b25109566a61fbae",
+      "benchmark": "deepswe",
+      "run_id": "happy-dom-abort-pending-body-rea__4pLG4Qr",
+      "task_id": "happy-dom-abort-pending-body-reads",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_07743e5ab52e5c8d8d9546e38d2b2a6e",
+    "record_question_id": "Q532",
+    "run_id": "go-genai-streamed-function-args__4iemyq3",
+    "task_id": "go-genai-streamed-function-args",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-d126141df261b548",
+      "benchmark": "deepswe",
+      "run_id": "go-genai-streamed-function-args__4iemyq3",
+      "task_id": "go-genai-streamed-function-args",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_5c94d34fb0fc5e7d95520b01204c62ad",
+    "record_question_id": "Q536",
+    "run_id": "obsidian-linter-link-format-conv__A8d5DdC",
+    "task_id": "obsidian-linter-link-format-conversion",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-21b42a7ac8c83f15",
+      "benchmark": "deepswe",
+      "run_id": "obsidian-linter-link-format-conv__A8d5DdC",
+      "task_id": "obsidian-linter-link-format-conversion",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_dc2933905e1d5992a93551ee968a6710",
+    "record_question_id": "Q538",
+    "run_id": "ink-grid-box-layout__fidzaeg",
+    "task_id": "ink-grid-box-layout",
+    "evidence_json_pointers": {
+      "E1": "/steps/51/observation/results/0/content/output",
+      "E2": "/steps/51/tool_calls/0/arguments/command"
+    },
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-2cb75623673a8725",
+      "benchmark": "deepswe",
+      "run_id": "ink-grid-box-layout__fidzaeg",
+      "task_id": "ink-grid-box-layout",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  },
+  {
+    "question_id": "q_83b4993721b05be0a13b6fc308d02fbb",
+    "record_question_id": "Q542",
+    "run_id": "goreleaser-retry-publish-auditin__LmMi6Qd",
+    "task_id": "goreleaser-retry-publish-auditing",
+    "strata": {
+      "benchmark": "deepswe",
+      "nature": "fact_behavior",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "structure": "observation_based_judgment"
+    },
+    "source": {
+      "id": "DK-7d57a827c32baf59",
+      "benchmark": "deepswe",
+      "run_id": "goreleaser-retry-publish-auditin__LmMi6Qd",
+      "task_id": "goreleaser-retry-publish-auditing",
+      "source_model": "deepseek/deepseek-v4-pro",
+      "reasoning_effort": "max",
+      "source_group": "deepseek-v4-pro"
+    }
+  }
+]
